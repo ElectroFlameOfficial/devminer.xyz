@@ -103,7 +103,7 @@
 }
 
 .card > .card-content > .card-tech > .chip {
-  @apply text-xs select-none rounded-lg border border-border px-2 py-1 bg-white bg-opacity-10 transition-all duration-300 ease-in-out h-fit w-fit;
+  @apply text-xs select-none rounded-lg border border-border px-2 py-1 bg-white bg-opacity-5 transition-all duration-300 ease-in-out h-fit w-fit backdrop-blur-sm;
 }
 .card:not(.has-no-anim):hover > .card-content > .card-tech > .chip {
   @apply bg-chip;
