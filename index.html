@@ -9,7 +9,9 @@
 
   <body class="h-full flex flex-col">
     <!-- navbar -->
-    <nav class="h-12 backdrop-blur flex items-center z-50 px-3 sm:px-8 border-b border-border">
+    <nav
+      class="h-12 backdrop-blur flex items-center z-50 px-3 sm:px-8 border-b border-border"
+    >
       <div class="flex-1 flex">
         <span class="h-fit select-none">DevMiner</span>
       </div>
@@ -48,6 +50,11 @@
                 stream on the filesystem.
               </p>
             </div>
+            <div class="card-tech">
+              <span class="chip">TypeScript</span>
+              <span class="chip">Node.js</span>
+              <span class="chip">uWebSockets</span>
+            </div>
             <div class="card-links">
               <a
                 href="https://dangeroustool.devminer.xyz"
@@ -70,6 +77,14 @@
                 <a href="https://ping.gg" class="link">ping.gg</a> CEO
                 <a href="https://t3.gg/" class="link">Theo Browne</a>.
               </p>
+            </div>
+            <div class="card-tech">
+              <span class="chip">TypeScript</span>
+              <span class="chip">Next.js</span>
+              <span class="chip">trpc</span>
+              <span class="chip">TailwindCSS</span>
+              <span class="chip">NextAuth</span>
+              <span class="chip">Prisma</span>
             </div>
             <div class="card-links">
               <a
@@ -100,29 +115,15 @@
                 trackers rotation.
               </p>
             </div>
+            <div class="card-tech">
+              <span class="chip">TypeScript</span>
+              <span class="chip">Electron</span>
+              <span class="chip">Node.js</span>
+              <span class="chip">TailwindCSS</span>
+            </div>
             <div class="card-links">
               <a
                 href="https://github.com/SlimeVR/slimevr-node/tree/master/apps/"
-                class="transition-all hover:text-black"
-              >
-                <span class="fa fa-lg fa-github"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="card hidden">
-          <div class="card-content">
-            <h1 class="card-title">GitHub</h1>
-            <div class="card-content">
-              <span>
-                This is where I publish all of my opensource applications since
-                2017.
-              </span>
-            </div>
-            <div class="card-links">
-              <a
-                href="https://github.com/TheDevMinerTV"
                 class="transition-all hover:text-black"
               >
                 <span class="fa fa-lg fa-github"></span>
@@ -137,9 +138,13 @@
             <div class="card-content">
               <p>
                 Simple color generator written in
-                <a href="https://go.dev/" class="link">Golang</a> which outputs
-                the files in the PNG format.
+                <a href="https://go.dev/" class="link">Golang go-fiber</a> which
+                outputs the files in the PNG format.
               </p>
+            </div>
+            <div class="card-tech">
+              <div class="chip">Golang</div>
+              <div class="chip">go-fiber</div>
             </div>
             <div class="card-links">
               <a
@@ -152,10 +157,32 @@
           </div>
         </div>
 
+        <div class="card hidden">
+          <div class="card-content">
+            <h1 class="card-title">GitHub</h1>
+            <div class="card-content">
+              <span>
+                This is where I publish all of my opensource applications since
+                2017.
+              </span>
+            </div>
+            <div class="card-tech"></div>
+            <div class="card-links">
+              <a
+                href="https://github.com/TheDevMinerTV"
+                class="transition-all hover:text-black"
+              >
+                <span class="fa fa-lg fa-github"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div class="card has-no-anim hidden">
           <div class="card-content">
             <h1 class="card-title">More stuff coming soon (probably)</h1>
             <div class="card-content"></div>
+            <div class="card-tech"></div>
             <div class="card-links"></div>
           </div>
         </div>

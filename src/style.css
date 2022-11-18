@@ -69,7 +69,7 @@
 .card > .card-content {
   @apply z-20 w-full h-full grid transition-all duration-300 ease-in-out p-4;
   grid-template-columns: auto fit-content(100%);
-  grid-template-rows: fit-content(100%) auto;
+  grid-template-rows: fit-content(100%) auto fit-content(100%);
 }
 .card:not(.has-no-anim) > .card-content {
   background-image: radial-gradient(
@@ -80,12 +80,32 @@
   background-position: 0 0;
 }
 .card:not(.has-no-anim):hover > .card-content {
-  /* @apply text-black; */
   background-position: -20px -20px;
 }
 
 .card > .card-content > .card-title {
   @apply font-bold text-xl;
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.card > .card-content > .card-content {
+  @apply text-white text-sm;
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.card > .card-content > .card-tech {
+  @apply flex flex-wrap items-end mt-2 gap-2;
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.card > .card-content > .card-tech > .chip {
+  @apply text-xs select-none rounded-lg border border-border px-2 py-1 bg-white bg-opacity-10 transition-all duration-300 ease-in-out h-fit w-fit;
+}
+.card:not(.has-no-anim):hover > .card-content > .card-tech > .chip {
+  @apply bg-chip;
 }
 
 .card > .card-content > .card-links {
@@ -100,8 +120,4 @@
 }
 .card:hover > .card-content > .card-links > a {
   @apply text-black hover:text-gray-600;
-}
-
-.card > .card-content > .card-content {
-  @apply text-white text-sm;
 }

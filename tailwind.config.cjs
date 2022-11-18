@@ -9,6 +9,7 @@ module.exports = {
         border: "hsl(204, 59%, 21%)",
         scrollbar: "hsla(240, 42%, 20%, 80%)",
         card: "rgba(255, 255, 255, 0.025)",
+        chip: "#222226",
       },
       fontFamily: {
         sans: "Inter",
