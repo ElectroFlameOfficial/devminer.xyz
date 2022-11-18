@@ -1,0 +1,107 @@
+@import url("../node_modules/fork-awesome/css/fork-awesome.min.css");
+@import url("../node_modules/@fontsource/inter/500.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.c {
+  @apply overflow-y-scroll;
+  max-height: calc(100vh - 3rem);
+  scrollbar-color: rgba(255, 255, 255, 0.2);
+  scrollbar-width: thin;
+}
+.c::-webkit-scrollbar {
+  width: 0.5rem;
+}
+.c::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+
+.c > .content {
+  @apply grid-cols-1 sm:grid-cols-2 md:grid-cols-3;
+
+  grid-auto-rows: 1fr;
+}
+.content::-webkit-scrollbar {
+  width: 0;
+}
+
+.link {
+  @apply whitespace-nowrap text-blue-300 hover:text-blue-400 transition-all;
+}
+
+.github-link {
+  @apply text-white hover:text-blue-400 transition-all;
+}
+
+.content {
+  @apply grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4;
+}
+
+.card {
+  @apply border border-border rounded-lg relative transition-all duration-300 ease-in-out bg-card;
+}
+.card:not(.has-no-anim):hover {
+  @apply border-transparent bg-transparent;
+}
+
+.card::before {
+  @apply content-[''] -z-10 absolute w-full h-full left-0 top-0 rounded-lg transition-all duration-300 ease-in-out;
+}
+.card:not(.has-no-anim)::before {
+  background-image: linear-gradient(
+    135deg,
+    transparent 0% 33%,
+    rgb(97, 23, 201) 66%,
+    rgb(236, 64, 122) 80%,
+    rgb(196, 166, 34) 95%,
+    rgb(239, 203, 43) 100%
+  );
+  background-size: 300% 300%;
+  background-position: 0% 0%;
+}
+.card:not(.has-no-anim):hover::before {
+  background-position: 100% 100%;
+}
+
+.card > .card-content {
+  @apply z-20 w-full h-full grid transition-all duration-300 ease-in-out p-4;
+  grid-template-columns: auto fit-content(100%);
+  grid-template-rows: fit-content(100%) auto;
+}
+.card:not(.has-no-anim) > .card-content {
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.2) 8%,
+    transparent 8%
+  );
+  background-size: 40px 40px;
+  background-position: 0 0;
+}
+.card:not(.has-no-anim):hover > .card-content {
+  /* @apply text-black; */
+  background-position: -20px -20px;
+}
+
+.card > .card-content > .card-title {
+  @apply font-bold text-xl;
+}
+
+.card > .card-content > .card-links {
+  @apply h-full w-full flex flex-col justify-end;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.card > .card-content > .card-links > a {
+  @apply text-white transition-all;
+}
+.card:hover > .card-content > .card-links > a {
+  @apply text-black hover:text-gray-600;
+}
+
+.card > .card-content > .card-content {
+  @apply text-white text-sm;
+}

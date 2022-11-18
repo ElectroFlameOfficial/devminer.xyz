@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-bg text-fg min-h-screen">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevMiner</title>
+  </head>
+
+  <body class="h-full flex flex-col">
+    <!-- navbar -->
+    <nav class="h-12 backdrop-blur flex items-center z-50 px-3 sm:px-8 border-b border-border">
+      <div class="flex-1 flex">
+        <span class="h-fit select-none">DevMiner</span>
+      </div>
+
+      <div class="flex space-x-4">
+        <a href="https://github.com/TheDevMinerTV" class="github-link">
+          <span class="fa fa-github fa-lg select-none"></span>
+        </a>
+      </div>
+    </nav>
+
+    <div class="flex-1 c space-y-2 sm:space-y-4 pt-3 sm:pt-8">
+      <span class="font-bold text-2xl sm:text-4xl px-3 sm:px-8">
+        My Projects
+      </span>
+
+      <div class="content px-3 sm:px-8">
+        <div class="card">
+          <div class="card-content">
+            <h1 class="card-title">DangerousTool</h1>
+            <div class="card-content">
+              <p>
+                DangerousTool is a utility for
+                <a href="https://www.elitedangerous.com/" class="link">
+                  Elite: Dangerous
+                </a>
+                players that shows the current position and status in
+                <a href="https://discord.com" class="link">Discord</a>.
+              </p>
+              <p>
+                I made this when playing
+                <a href="https://www.elitedangerous.com/" class="link">
+                  Elite: Dangerous
+                </a>
+                and my friend mentioned that they have a semi-stable event
+                stream on the filesystem.
+              </p>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://dangeroustool.devminer.xyz"
+                class="transition-all hover:text-black"
+              >
+                <span class="fa fa-lg fa-link"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h1 class="card-title">todo.devminer.xyz</h1>
+            <div class="card-content">
+              <p>
+                Simple todo app based on the
+                <a href="https://create.t3.gg/" class="link">t3 stack</a>
+                popularized by the youtuber and
+                <a href="https://ping.gg" class="link">ping.gg</a> CEO
+                <a href="https://t3.gg/" class="link">Theo Browne</a>.
+              </p>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://todo.devminer.xyz"
+                class="transition-all hover:text-black"
+              >
+                <span class="fa fa-lg fa-link"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h1 class="card-title">SlimeVR Firmware Protocol Debugger</h1>
+            <div class="card-content">
+              <p>
+                Reimplementation of the
+                <a href="https://slimevr.dev" class="link">SlimeVR</a> tracker
+                protocol and server in JavaScript to debug trackers without
+                having to start
+                <a
+                  href="https://store.steampowered.com/app/250820/SteamVR/"
+                  class="link"
+                >
+                  SteamVR</a
+                >. Also includes an optional GUI which also visualizes the
+                trackers rotation.
+              </p>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://github.com/SlimeVR/slimevr-node/tree/master/apps/"
+                class="transition-all hover:text-black"
+              >
+                <span class="fa fa-lg fa-github"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card hidden">
+          <div class="card-content">
+            <h1 class="card-title">GitHub</h1>
+            <div class="card-content">
+              <span>
+                This is where I publish all of my opensource applications since
+                2017.
+              </span>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://github.com/TheDevMinerTV"
+                class="transition-all hover:text-black"
+              >
+                <span class="fa fa-lg fa-github"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card hidden">
+          <div class="card-content">
+            <h1 class="card-title">c.devminer.xyz</h1>
+            <div class="card-content">
+              <p>
+                Simple color generator written in
+                <a href="https://go.dev/" class="link">Golang</a> which outputs
+                the files in the PNG format.
+              </p>
+            </div>
+            <div class="card-links">
+              <a
+                href="https://c.devminer.xyz"
+                class="transition-all hover:text-black"
+              >
+                <span class="fa fa-lg fa-link"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card has-no-anim hidden">
+          <div class="card-content">
+            <h1 class="card-title">More stuff coming soon (probably)</h1>
+            <div class="card-content"></div>
+            <div class="card-links"></div>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center mt-4 px-8 space-x-2">
+        <hr class="flex-1 border-border" />
+        <button
+          class="w-fit px-3 py-2 border border-border rounded-lg transition-all duration-300 bg-transparent text-white hover:bg-white hover:border-white hover:text-black outline-none font-bold"
+          id="show-more-projects"
+        >
+          Show More
+        </button>
+        <hr class="flex-1 border-border" />
+      </div>
+
+      <div
+        class="w-full text-center font-bold text-md sm:text-xl select-none py-4"
+      >
+        <span>
+          Contact:
+          <a href="mailto:devminer@devminer.xyz" class="link select-text">
+            devminer@devminer.xyz
+          </a>
+        </span>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
