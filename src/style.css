@@ -72,6 +72,7 @@
   grid-template-rows: fit-content(100%) auto fit-content(100%);
 }
 .card:not(.has-no-anim) > .card-content {
+  @apply rounded-lg;
   background-image: radial-gradient(
     rgba(255, 255, 255, 0.2) 8%,
     transparent 8%
