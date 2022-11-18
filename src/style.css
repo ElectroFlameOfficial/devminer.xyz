@@ -20,7 +20,7 @@
 }
 
 .c > .content {
-  @apply grid-cols-1 sm:grid-cols-2 md:grid-cols-3;
+  @apply grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
 
   grid-auto-rows: 1fr;
 }
