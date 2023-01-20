@@ -7,19 +7,19 @@
 
 .c {
   @apply overflow-y-scroll;
-  max-height: calc(100vh - 3rem);
   scrollbar-color: rgba(255, 255, 255, 0.2);
   scrollbar-width: thin;
 }
 .c::-webkit-scrollbar {
   width: 0.5rem;
+  z-index: 100;
 }
 .c::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 8px;
 }
 
-.c > .content {
+.c .content {
   @apply grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
 
   grid-auto-rows: 1fr;
@@ -78,10 +78,10 @@
     transparent 8%
   );
   background-size: 40px 40px;
-  background-position: -5px -5px;
+  background-position: -10px -10px;
 }
 .card:not(.has-no-anim):hover > .card-content {
-  background-position: -25px -25px;
+  background-position: -50px -50px;
 }
 
 .card > .card-content > .card-title {
