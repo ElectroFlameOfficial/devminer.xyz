@@ -121,3 +121,15 @@
 .card:hover > .card-content > .card-links > a {
   @apply text-black hover:text-gray-600;
 }
+
+.text-gradient {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(
+    155deg,
+    rgb(97, 23, 201) 5%,
+    rgb(236, 64, 122) 50%,
+    rgb(196, 166, 34) 95%,
+    rgb(239, 203, 43) 100%
+  );
+}
