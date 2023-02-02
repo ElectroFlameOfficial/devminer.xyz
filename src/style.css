@@ -133,3 +133,7 @@
     rgb(239, 203, 43) 100%
   );
 }
+
+.tech-card {
+  @apply rounded-lg transition-all bg-card outline outline-1 outline-border h-fit p-4 space-y-1;
+}
