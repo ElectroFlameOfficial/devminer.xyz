@@ -14,6 +14,9 @@ module.exports = {
       fontFamily: {
         sans: "Inter",
       },
+      fontWeight: {
+        base: "400",
+      },
     },
   },
 };

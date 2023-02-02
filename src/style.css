@@ -1,5 +1,5 @@
 @import url("../node_modules/fork-awesome/css/fork-awesome.min.css");
-@import url("../node_modules/@fontsource/inter/500.css");
+@import url("../node_modules/@fontsource/inter/400.css");
 
 @tailwind base;
 @tailwind components;
