@@ -28,7 +28,7 @@
 }
 
 .link {
-  @apply whitespace-nowrap text-blue-400 hover:text-blue-300 transition-all hover:underline;
+  @apply whitespace-nowrap text-blue-400 hover:text-blue-300 transition-all decoration-dashed underline underline-offset-4 decoration-blue-400 hover:decoration-blue-300;
 }
 
 .github-link {
