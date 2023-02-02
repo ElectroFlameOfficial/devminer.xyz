@@ -1,3 +1,5 @@
+import "@fontsource/inter/400.css";
+import "fork-awesome/css/fork-awesome.min.css";
 import "./style.css";
 
 const showMoreProjectsButton = document.querySelector(
