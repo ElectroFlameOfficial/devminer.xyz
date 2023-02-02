@@ -40,10 +40,10 @@
 }
 
 .card {
-  @apply border border-border rounded-lg relative transition-all duration-300 ease-in-out bg-card;
+  @apply rounded-lg relative transition-all ease-linear bg-card outline outline-1 outline-border outline-offset-0;
 }
 .card:not(.has-no-anim):hover {
-  @apply border-transparent bg-transparent;
+  @apply bg-transparent outline-blue-600 outline-offset-4 outline-4 scale-105;
 }
 
 .card::before {
