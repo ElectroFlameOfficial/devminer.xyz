@@ -43,7 +43,7 @@
   @apply rounded-lg relative transition-all ease-linear bg-card outline outline-1 outline-border outline-offset-0;
 }
 .card:not(.has-no-anim):hover {
-  @apply bg-transparent outline-blue-600 outline-offset-4 outline-4 scale-105;
+  @apply bg-transparent outline-blue-600 outline-offset-2 sm:outline-offset-4 outline-2 sm:outline-4 sm:scale-[1.025];
 }
 
 .card::before {
