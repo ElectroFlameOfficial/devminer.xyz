@@ -66,7 +66,7 @@
 }
 
 .card > .card-content {
-  @apply z-20 w-full h-full grid transition-all duration-300 ease-in-out p-4;
+  @apply z-20 w-full h-full grid transition-all duration-300 ease-in-out p-4 space-y-1;
   grid-template-columns: auto fit-content(100%);
   grid-template-rows: fit-content(100%) auto fit-content(100%);
 }
