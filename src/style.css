@@ -21,7 +21,6 @@
 
 .c .content {
   @apply grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
-
   grid-auto-rows: 1fr;
 }
 .content::-webkit-scrollbar {
@@ -29,7 +28,7 @@
 }
 
 .link {
-  @apply whitespace-nowrap text-blue-300 hover:text-blue-400 transition-all;
+  @apply whitespace-nowrap text-blue-400 hover:text-blue-300 transition-all hover:underline;
 }
 
 .github-link {
