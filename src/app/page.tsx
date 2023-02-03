@@ -6,10 +6,10 @@ export default function Home() {
     <div className="flex-1 pt-8 c content-wrapper flex flex-col gap-8">
       <div className="max-w-7xl w-full self-center px-3 sm:px-8 space-y-2">
         <p className="font-bold text-8xl sm:text-9xl text-gradient w-fit select-none tracking-tighter">
-          Hi, I&apos;m Anna!
+          Hi, I'm Anna!
         </p>
         <p>
-          I&apos;m a 19 year old developer from Germany. I&apos;m currently
+          I'm a 19 year old developer from Germany. I'm currently
           working on{" "}
           <a href="https://slimevr.dev" className="link">
             SlimeVR

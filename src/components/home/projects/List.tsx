@@ -153,11 +153,11 @@ export const ProjectList = () => {
               ]}
             >
               <p>
-                This is the tool we&apos;re using at{" "}
+                This is the tool we're using at{" "}
                 <a href="https://slimevr.dev">SlimeVR</a> to test the boards
-                that we&apos;ve soldered. It checks the voltage rails, flashes
+                that we've soldered. It checks the voltage rails, flashes
                 the firmware and checks if the IMU is detected and working. It
-                uploads it&apos;s reports into a web application for easy
+                uploads it's reports into a web application for easy
                 monitoring.
               </p>
             </ProjectCard>
@@ -170,7 +170,7 @@ export const ProjectList = () => {
               tech={["TypeScript", "React", "next-qrcode"]}
             >
               <p>
-                A simple QR code generator because I&apos;m annoyed by all other
+                A simple QR code generator because I'm annoyed by all other
                 QR code generators wanting accounts to download the generated QR
                 codes.
               </p>
