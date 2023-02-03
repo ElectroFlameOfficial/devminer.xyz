@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <div className="flex-1 pt-8 c content-wrapper flex flex-col gap-8">
       <div className="max-w-7xl w-full self-center px-3 sm:px-8 space-y-2">
-        <p className="font-bold text-8xl sm:text-9xl text-gradient w-fit select-none tracking-tighter">
+        <h1 className="font-bold text-8xl sm:text-9xl text-gradient w-fit select-none tracking-tight">
           Hi, I'm Anna!
-        </p>
+        </h1>
         <p>
           I'm a 19 year old developer from Germany. I'm currently working on{" "}
           <a href="https://slimevr.dev" className="link">
@@ -19,17 +19,17 @@ export default function Home() {
       </div>
 
       <div className="max-w-7xl space-y-2 sm:space-y-4 self-center">
-        <span className="font-bold text-2xl sm:text-4xl px-4 sm:px-8">
+        <h2 className="font-bold text-2xl sm:text-4xl px-4 sm:px-8 font-subtitle">
           My Projects
-        </span>
+        </h2>
 
         <ProjectList />
       </div>
 
       <div className="max-w-7xl w-full self-center space-y-2 sm:space-y-4">
-        <span className="font-bold text-2xl sm:text-4xl px-4 sm:px-8">
+        <h2 className="font-bold text-2xl sm:text-4xl px-4 sm:px-8 font-subtitle">
           Tech I know and use
-        </span>
+        </h2>
 
         <div className="px-3 sm:px-8 flex flex-wrap gap-2 sm:gap-4 justify-between">
           <TechCard

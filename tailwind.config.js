@@ -13,6 +13,7 @@ module.exports = {
       },
       fontFamily: {
         sans: "Inter",
+        subtitle: "Kanit",
       },
       fontWeight: {
         base: "400",
