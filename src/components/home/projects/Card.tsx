@@ -30,7 +30,7 @@ export const ProjectCard = ({
             <a
               key={i}
               href={link.link}
-              className="transition-all hover:black-text"
+              className="transition-all hover:text-black"
             >
               {link.icon}
             </a>
