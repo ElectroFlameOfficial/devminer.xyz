@@ -12,7 +12,7 @@ module.exports = {
         chip: "#222226",
       },
       fontFamily: {
-        sans: "Inter",
+        sans: "'Exo 2'",
         subtitle: "Kanit",
       },
       fontWeight: {

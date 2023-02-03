@@ -24,10 +24,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@fontsource/inter@^4.5.15":
-  version "4.5.15"
-  resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-4.5.15.tgz#eed1873d68755d3b52d6fcfcfa3493118430a512"
-  integrity sha512-FzleM9AxZQK2nqsTDtBiY0PMEVWvnKnuu2i09+p6DHvrHsuucoV2j0tmw+kAT3L4hvsLdAIDv6MdGehsPIdT+Q==
+"@fontsource/exo-2@^4.5.11":
+  version "4.5.11"
+  resolved "https://registry.yarnpkg.com/@fontsource/exo-2/-/exo-2-4.5.11.tgz#0e946b15e7f31f1b622b059c9647503d5ce38c72"
+  integrity sha512-wNE9MJHL+NBEoPy/gDWLF3Wzn0YJLyM8YUVxfuW0w0ociY50Ae1x0DrC5A3R2G59aySiox/VYJppenWZJG3psQ==
 
 "@fontsource/kanit@^4.5.10":
   version "4.5.10"

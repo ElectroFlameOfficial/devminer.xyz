@@ -3,9 +3,9 @@ import { TechCard } from "../components/home/TechCard";
 
 export default function Home() {
   return (
-    <div className="flex-1 pt-8 c content-wrapper flex flex-col gap-8">
+    <div className="flex-1 pt-8 sm:pt-12 c content-wrapper flex flex-col gap-8">
       <div className="max-w-7xl w-full self-center px-3 sm:px-8 space-y-2">
-        <h1 className="font-bold text-8xl sm:text-9xl text-gradient w-fit select-none tracking-tight">
+        <h1 className="font-bold transition-all text-7xl sm:text-8xl md:text-9xl text-gradient w-fit select-none tracking-tight py-4">
           Hi, I'm Anna!
         </h1>
         <p>

@@ -1,4 +1,4 @@
-import "@fontsource/inter/400.css";
+import "@fontsource/exo-2/400.css";
 import "@fontsource/kanit/400.css";
 import { SiGithub } from "react-icons/si";
 import "./globals.css";

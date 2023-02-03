@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@fontsource/inter": "^4.5.15",
+    "@fontsource/exo-2": "^4.5.11",
     "@fontsource/kanit": "^4.5.10",
     "next": "13.1.6",
     "react": "18.2.0",
