@@ -9,8 +9,7 @@ export default function Home() {
           Hi, I'm Anna!
         </p>
         <p>
-          I'm a 19 year old developer from Germany. I'm currently
-          working on{" "}
+          I'm a 19 year old developer from Germany. I'm currently working on{" "}
           <a href="https://slimevr.dev" className="link">
             SlimeVR
           </a>{" "}
