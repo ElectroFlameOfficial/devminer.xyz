@@ -1,3 +1,4 @@
 User-agent: *
-Allow: /
+Sitemap: https://devminer.xyz/sitemap.xml
+Allow: *
 Disallow: /cdn-cgi/l/email-protection
