@@ -13,7 +13,7 @@ export default function RootLayout({
 
       <body className="h-full flex flex-col c">
         <div className="pb-8">
-          <nav className="h-12 backdrop-blur-lg w-screen flex fixed inset-0 items-center z-50 px-3 sm:px-8 border-b border-border">
+          <div className="h-12 backdrop-blur-lg w-screen flex fixed inset-0 items-center z-50 px-3 sm:px-8 border-b border-border">
             <div className="flex-1 flex">
               <span className="h-fit select-none">DevMiner</span>
             </div>
@@ -26,7 +26,7 @@ export default function RootLayout({
                 <SiGithub size={20} />
               </a>
             </div>
-          </nav>
+          </div>
         </div>
 
         {children}

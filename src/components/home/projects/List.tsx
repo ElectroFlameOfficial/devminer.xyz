@@ -9,7 +9,7 @@ export const ProjectList = () => {
   const [showingAllProjects, setShowingAllProjects] = useState(false);
 
   return (
-    <>
+    <div>
       <div className="content px-4 sm:px-8">
         <ProjectCard
           title="DangerousTool"
@@ -200,6 +200,6 @@ export const ProjectList = () => {
         </button>
         <hr className="flex-1 border-border" />
       </div>
-    </>
+    </div>
   );
 };

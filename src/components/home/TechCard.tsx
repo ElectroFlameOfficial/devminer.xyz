@@ -12,9 +12,9 @@ const renderTech = (tech: Technology): ReactNode => {
     return tech
       .map((t, i) => <span key={i}>{renderTech(t)}</span>)
       .reduce((prev, curr) => (
-        <>
+        <span>
           {prev} & {curr}
-        </>
+        </span>
       ));
   } else {
     return (

@@ -14,7 +14,7 @@ export const ProjectCard = ({
   return (
     <div className="card">
       <div className="card-content">
-        <span className="card-title">{title}</span>
+        <h3 className="card-title">{title}</h3>
         <div className="card-content">{children}</div>
 
         <div className="card-tech">
