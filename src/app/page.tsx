@@ -55,7 +55,7 @@ export default function Home() {
             title="Languages"
             technologies={[
               { name: "TypeScript", link: "https://typescriptlang.org" },
-              { name: "Go", link: "https://go.dev" },
+              { name: "Golang", link: "https://go.dev" },
               { name: "Python", link: "https://www.python.org" },
               { name: "Rust (a bit)", link: "https://rustlang.org" },
               { name: "PHP (a bit)", link: "https://www.php.net" },
