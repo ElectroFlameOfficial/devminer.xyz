@@ -22,7 +22,7 @@ export default function RootLayout({
             <div className="flex space-x-4">
               <a
                 href="https://github.com/TheDevMinerTV"
-                className="text-white px-2 py-1 rounded-lg hover:bg-white hover:bg-opacity-20 transition-all space-x-2"
+                className="text-white px-2 py-1 rounded-lg hover:bg-white hover:bg-opacity-20 transition-all gap-x-2 flex items-center"
               >
                 <SiGithub className="inline-block" size={20} />
                 <span>GitHub</span>
