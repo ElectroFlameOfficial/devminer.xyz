@@ -101,6 +101,8 @@ export default function Home() {
               { name: "PostgreSQL", link: "https://postgresql.org" },
               { name: "MongoDB", link: "https://mongodb.com" },
               { name: "Redis", link: "https://redis.io" },
+              { name: "MariaDB", link: "https://mariadb.org" },
+              { name: "SQLite", link: "https://sqlite.org" },
             ]}
           />
 
