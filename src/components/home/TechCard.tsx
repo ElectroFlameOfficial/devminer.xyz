@@ -35,7 +35,7 @@ export const TechCard = ({
   return (
     <div className="tech-card">
       <h3 className="font-bold text-xl">{title}</h3>
-      <ul>
+      <ul className="space-y-1">
         {technologies.map((tech, i) => (
           <li key={i}>{renderTech(tech)}</li>
         ))}
