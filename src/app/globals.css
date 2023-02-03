@@ -33,10 +33,10 @@
 }
 
 .card {
-  @apply rounded-lg relative transition-all ease-linear bg-card outline outline-1 outline-border outline-offset-0;
+  @apply rounded-lg relative transition-all ease-linear bg-card border border-border;
 }
 .card:not(.has-no-anim):hover {
-  @apply bg-transparent outline-blue-600 outline-offset-2 sm:outline-offset-4 outline-2 sm:outline-4 sm:scale-[1.025];
+  @apply bg-transparent border-transparent sm:scale-[1.025];
 }
 
 .card::before {
