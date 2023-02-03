@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 
 type SingleTechnology = {
   name: string;
-  link?: string;
+  link: string;
 };
 
 type Technology = SingleTechnology | SingleTechnology[];
@@ -17,15 +17,11 @@ const renderTech = (tech: Technology): ReactNode => {
         </>
       ));
   } else {
-    if ("link" in tech) {
-      return (
-        <a href={tech.link} className="link">
-          {tech.name}
-        </a>
-      );
-    }
-
-    return <span>{tech.name}</span>;
+    return (
+      <a href={tech.link} className="link">
+        {tech.name}
+      </a>
+    );
   }
 };
 

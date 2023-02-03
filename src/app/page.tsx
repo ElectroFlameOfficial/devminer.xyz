@@ -124,12 +124,10 @@ export default function Home() {
       </div>
 
       <div className="w-full text-center font-bold text-md sm:text-xl select-none py-4">
-        <span>
-          Contact:
-          <a href="mailto:devminer@devminer.xyz" className="link select-text">
-            devminer@devminer.xyz
-          </a>
-        </span>
+        Contact:{" "}
+        <a href="mailto:devminer@devminer.xyz" className="link select-text">
+          devminer@devminer.xyz
+        </a>
       </div>
     </div>
   );
