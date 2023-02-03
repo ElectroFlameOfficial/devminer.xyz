@@ -18,7 +18,7 @@ const renderTech = (tech: Technology): ReactNode => {
       ));
   } else {
     return (
-      <a href={tech.link} className="link">
+      <a href={tech.link} className="link py-1">
         {tech.name}
       </a>
     );
