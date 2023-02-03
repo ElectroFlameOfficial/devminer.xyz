@@ -23,6 +23,7 @@ export default function RootLayout({
               <a
                 href="https://github.com/TheDevMinerTV"
                 className="text-white px-2 py-1 rounded-lg hover:bg-white hover:bg-opacity-20 transition-all gap-x-2 flex items-center"
+                aria-label="My GitHub Profile"
               >
                 <SiGithub className="inline-block" size={20} />
                 <span>GitHub</span>

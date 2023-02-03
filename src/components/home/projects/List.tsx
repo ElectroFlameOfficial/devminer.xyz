@@ -17,6 +17,7 @@ export const ProjectList = () => {
             {
               icon: <HiLink size={20} />,
               link: "https://dangeroustool.devminer.xyz",
+              alt: "DangerousTool",
             },
           ]}
           tech={[
@@ -54,6 +55,7 @@ export const ProjectList = () => {
             {
               icon: <HiLink size={20} />,
               link: "https://todo.devminer.xyz",
+              alt: "t3odo",
             },
           ]}
           tech={[
@@ -88,6 +90,7 @@ export const ProjectList = () => {
             {
               icon: <SiGithub size={20} />,
               link: "https://github.com/SlimeVR/SlimeVR-Node/tree/master/apps",
+              alt: "SlimeVR Firmware Protocol Debugger on GitHub",
             },
           ]}
           tech={["TypeScript", "React", "Electron", "Node.js", "TailwindCSS"]}
@@ -118,6 +121,7 @@ export const ProjectList = () => {
                 {
                   icon: <HiLink size={20} />,
                   link: "https://c.devminer.xyz",
+                  alt: "Color generator",
                 },
               ]}
               tech={["Golang", "go-fiber", "image/png"]}
@@ -141,6 +145,7 @@ export const ProjectList = () => {
                 {
                   icon: <SiGithub size={20} />,
                   link: "https://github.com/SlimeVR/Nighty-Hardware-Tester",
+                  alt: "SlimeVR Hardware Tester on GitHub",
                 },
               ]}
               tech={[
@@ -164,7 +169,11 @@ export const ProjectList = () => {
             <ProjectCard
               title="QR Code generator"
               links={[
-                { icon: <HiLink size={20} />, link: "https://qr.devminer.xyz" },
+                {
+                  icon: <HiLink size={20} />,
+                  link: "https://qr.devminer.xyz",
+                  alt: "QR Code generator",
+                },
               ]}
               tech={["TypeScript", "React", "next-qrcode"]}
             >

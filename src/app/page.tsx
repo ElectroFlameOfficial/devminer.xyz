@@ -10,7 +10,11 @@ export default function Home() {
         </h1>
         <p>
           I'm a 19 year old developer from Germany. I'm currently working on{" "}
-          <a href="https://slimevr.dev" className="link">
+          <a
+            href="https://slimevr.dev"
+            className="link"
+            aria-label="SlimeVR Homepage"
+          >
             SlimeVR
           </a>{" "}
           and some other Minecraft projects. I also like to make websites, web
@@ -126,7 +130,11 @@ export default function Home() {
 
       <div className="w-full text-center font-bold text-md sm:text-xl select-none py-4">
         Contact:{" "}
-        <a href="mailto:devminer@devminer.xyz" className="link select-text">
+        <a
+          href="mailto:devminer@devminer.xyz"
+          className="link select-text"
+          aria-label="My Email Address"
+        >
           devminer@devminer.xyz
         </a>
       </div>

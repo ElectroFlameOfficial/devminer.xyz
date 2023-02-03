@@ -1,5 +1,11 @@
 import { ReactNode } from "react";
 
+type Link = {
+  icon: ReactNode;
+  link: string;
+  alt: string;
+};
+
 export const ProjectCard = ({
   title,
   children,
@@ -9,7 +15,7 @@ export const ProjectCard = ({
   title: string;
   children: ReactNode;
   tech?: string[];
-  links?: { icon: ReactNode; link: string }[];
+  links?: Link[];
 }) => {
   return (
     <div className="card">
@@ -31,6 +37,7 @@ export const ProjectCard = ({
               key={i}
               href={link.link}
               className="transition-all hover:text-black"
+              aria-label={link.alt}
             >
               {link.icon}
             </a>
