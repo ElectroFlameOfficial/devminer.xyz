@@ -28,10 +28,6 @@
   @apply whitespace-nowrap text-blue-400 hover:text-blue-300 transition-all decoration-dashed underline underline-offset-4 decoration-blue-400 hover:decoration-blue-300;
 }
 
-.github-link {
-  @apply text-white hover:text-blue-400 transition-all;
-}
-
 .content {
   @apply grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4;
 }
