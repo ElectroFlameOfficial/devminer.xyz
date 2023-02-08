@@ -9,20 +9,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-bg text-fg min-h-screen">
+    <html lang="en" className="min-h-screen bg-bg text-fg">
       <head />
 
-      <body className="h-full flex flex-col c">
-        <div className="pb-8">
-          <div className="h-12 backdrop-blur-lg w-screen flex fixed inset-0 items-center z-50 px-3 sm:px-8 border-b border-border">
-            <div className="flex-1 flex">
+      <body className="c flex h-full flex-col">
+        <div className="w-screen pb-12">
+          <div className="fixed inset-0 z-50 flex h-12 w-screen items-center border-b border-border px-3 backdrop-blur-lg sm:px-8">
+            <div className="flex flex-1">
               <span className="h-fit select-none">DevMiner</span>
             </div>
 
             <div className="flex space-x-4">
               <a
                 href="https://github.com/TheDevMinerTV"
-                className="text-white px-2 py-1 rounded-lg hover:bg-white hover:bg-opacity-20 transition-all gap-x-2 flex items-center"
+                className="flex items-center gap-x-2 rounded-lg px-2 py-1 text-white transition-all hover:bg-white hover:bg-opacity-20"
                 aria-label="My GitHub Profile"
               >
                 <SiGithub className="inline-block" size={20} />
