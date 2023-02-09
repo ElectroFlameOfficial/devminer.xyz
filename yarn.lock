@@ -29,6 +29,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/exo-2/-/exo-2-4.5.11.tgz#0e946b15e7f31f1b622b059c9647503d5ce38c72"
   integrity sha512-wNE9MJHL+NBEoPy/gDWLF3Wzn0YJLyM8YUVxfuW0w0ociY50Ae1x0DrC5A3R2G59aySiox/VYJppenWZJG3psQ==
 
+"@fontsource/jetbrains-mono@^4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@fontsource/jetbrains-mono/-/jetbrains-mono-4.5.12.tgz#d965dca932f0ecf5379013f4dff3aec7b817b91b"
+  integrity sha512-LJF1ala1/u+wXZmESFqIk08FA9yGX4/uAAleCHmXUMgEjvNAYFHUQQ7eK5hQQoBOwh99cU5suTrqYqEkgzwzPA==
+
 "@fontsource/kanit@^4.5.10":
   version "4.5.10"
   resolved "https://registry.yarnpkg.com/@fontsource/kanit/-/kanit-4.5.10.tgz#603bd61ad3a648edbf5f584ed67f4bbd0c332500"
