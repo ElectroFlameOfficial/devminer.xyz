@@ -15,7 +15,7 @@ export default function RootLayout({
       <head />
 
       <body className="c flex h-full flex-col">
-        <div className="w-screen pb-12">
+        <div className="pb-12">
           <div className="fixed inset-0 z-50 flex h-12 w-screen items-center border-b border-border px-3 backdrop-blur-lg sm:px-8">
             <div className="flex flex-1">
               <span className="h-fit select-none">DevMiner</span>
