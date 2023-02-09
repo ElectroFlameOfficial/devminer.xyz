@@ -14,6 +14,7 @@ module.exports = {
       fontFamily: {
         sans: "'Exo 2'",
         subtitle: "Kanit",
+        mono: "JetBrains Mono",
       },
       fontWeight: {
         base: "400",

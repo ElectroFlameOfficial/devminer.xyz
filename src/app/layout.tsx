@@ -2,6 +2,7 @@ import "@fontsource/exo-2/400.css";
 import "@fontsource/jetbrains-mono/400.css";
 import "@fontsource/kanit/400.css";
 import { SiGithub } from "react-icons/si";
+import { TerminalWrapper } from "../components/terminal/wrapper";
 import "./globals.css";
 
 export default function RootLayout({
@@ -21,6 +22,8 @@ export default function RootLayout({
             </div>
 
             <div className="flex space-x-4">
+              <TerminalWrapper />
+
               <a
                 href="https://github.com/TheDevMinerTV"
                 className="flex items-center gap-x-2 rounded-lg px-2 py-1 text-white transition-all hover:bg-white hover:bg-opacity-20"
