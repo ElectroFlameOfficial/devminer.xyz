@@ -13,14 +13,7 @@ export const TerminalWrapper = () => {
       <button
         className="flex items-center rounded-lg px-2 py-1 text-white transition-all hover:bg-white hover:bg-opacity-20"
         aria-label="Toggle terminal"
-        onClick={(e) => {
-          e.preventDefault();
-          e.stopPropagation();
-
-          console.log("toggle terminal", isOpen);
-
-          setIsOpen(!isOpen);
-        }}
+        onClick={(e) => setIsOpen(!isOpen)}
       >
         <TbTerminal className="inline-block" size={20} />
       </button>
