@@ -30,7 +30,7 @@ export default function RootLayout({
                 aria-label="My GitHub Profile"
               >
                 <SiGithub className="inline-block" size={20} />
-                <span>GitHub</span>
+                GitHub
               </a>
             </div>
           </div>
