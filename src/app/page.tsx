@@ -6,19 +6,19 @@ export default function Home() {
     <div className="flex-1 pt-8 sm:pt-12 c content-wrapper flex flex-col gap-8">
       <div className="max-w-7xl w-full self-center px-3 sm:px-8 space-y-2">
         <h1 className="font-bold text-7xl sm:text-8xl md:text-9xl text-gradient w-fit select-none tracking-tight py-4">
-          Hi, I'm Anna!
+          Hi, I'm Lia
         </h1>
         <p>
-          I'm a 19 year old developer from Germany. I'm currently working on{" "}
+          I'm a 16 year old developer from New York. I'm currently working on{" "}
           <a
-            href="https://slimevr.dev"
+            href="https://mydemonlist.com"
             className="link"
-            aria-label="SlimeVR Homepage"
+            aria-label="MyDemonList"
           >
-            SlimeVR
+            MyDemonList
           </a>{" "}
-          and some other Minecraft projects. I also like to make websites, web
-          apps, Discord bots and various other small tools.
+          and some other project. I also like to make websites, web
+          apps, game mods and various other small tools.
         </p>
       </div>
 
@@ -41,7 +41,7 @@ export default function Home() {
             technologies={[
               { name: "Git", link: "https://git-scm.com" },
               { name: "GitHub", link: "https://github.com" },
-              { name: "GitLab", link: "https://gitlab.com" },
+              { name: "VSCode", link: "https://code.visualstudio.com" },
               { name: "Docker", link: "https://docker.com" },
               { name: "Cloudflare", link: "https://cloudflare.com" },
               { name: "Vercel", link: "https://vercel.com" },
@@ -49,20 +49,20 @@ export default function Home() {
                 name: "GitHub Actions",
                 link: "https://github.com/features/actions",
               },
-              { name: "Concourse CI", link: "https://concourse-ci.org/" },
-              { name: "Jira", link: "https://www.atlassian.com/software/jira" },
-              { name: "AWS S3", link: "https://aws.amazon.com/s3/" },
+              { name: "CircleCI", link: "https://circleci.com/" },
+              { name: "Statuspage", link: "https://www.atlassian.com/software/statuspage" },
+              { name: "Google Cloud", link: "https://cloud.google.com" },
             ]}
           />
 
           <TechCard
             title="Languages"
             technologies={[
-              { name: "TypeScript", link: "https://typescriptlang.org" },
+              { name: "TypeScript (barely)", link: "https://typescriptlang.org" },
               { name: "Golang", link: "https://go.dev" },
               { name: "Python", link: "https://www.python.org" },
-              { name: "Rust (a bit)", link: "https://rustlang.org" },
-              { name: "PHP (a bit)", link: "https://www.php.net" },
+              { name: "Rust (a lot)", link: "https://rustlang.org" },
+              { name: "PHP", link: "https://www.php.net" },
             ]}
           />
 
@@ -76,9 +76,6 @@ export default function Home() {
               [
                 { name: "Vue", link: "https://vuejs.org" },
                 { name: "Nuxt.js", link: "https://nuxtjs.org" },
-              ],
-              { name: "go-fiber", link: "https://gofiber.io" },
-              { name: "Astro", link: "https://astro.build" },
             ]}
           />
 
@@ -107,6 +104,8 @@ export default function Home() {
               { name: "Redis", link: "https://redis.io" },
               { name: "MariaDB", link: "https://mariadb.org" },
               { name: "SQLite", link: "https://sqlite.org" },
+              { name: "Firebase", link: "https://firebase.google.com" },
+              { name: "pocketbase", link: "https://pocketbase.io" }
             ]}
           />
 
@@ -123,7 +122,10 @@ export default function Home() {
 
           <TechCard
             title="Tools"
-            technologies={[{ name: "Vite", link: "https://vitejs.dev" }]}
+            technologies={[
+              { name: "Vite", link: "https://vitejs.dev" },
+              { name: "Cargo", link: "https://rustup.rs" },
+              ]}
           />
         </div>
       </div>
@@ -131,11 +133,11 @@ export default function Home() {
       <div className="w-full text-center font-bold text-md sm:text-xl select-none py-4">
         Contact:{" "}
         <a
-          href="mailto:devminer@devminer.xyz"
+          href="mailto:lia@vshade.strangled.net"
           className="link select-text"
           aria-label="My Email Address"
         >
-          devminer@devminer.xyz
+          lia@vshade.strangled.net
         </a>
       </div>
     </div>
