@@ -72,10 +72,6 @@ export default function Home() {
               [
                 { name: "React", link: "https://reactjs.org" },
                 { name: "Next.js", link: "https://nextjs.org" },
-              ],
-              [
-                { name: "Vue", link: "https://vuejs.org" },
-                { name: "Nuxt.js", link: "https://nuxtjs.org" },
             ]}
           />
 
@@ -92,7 +88,7 @@ export default function Home() {
                 name: "uWebSockets.js",
                 link: "https://github.com/uNetworking/uWebSockets.js",
               },
-              { name: "zod", link: "https://github.com/colinhacks/zod" },
+              { name: "zod", link: "https://github.com/colinhacks/zod" }
             ]}
           />
 
@@ -105,7 +101,7 @@ export default function Home() {
               { name: "MariaDB", link: "https://mariadb.org" },
               { name: "SQLite", link: "https://sqlite.org" },
               { name: "Firebase", link: "https://firebase.google.com" },
-              { name: "pocketbase", link: "https://pocketbase.io" },
+              { name: "pocketbase", link: "https://pocketbase.io" }
             ]}
           />
 
@@ -124,7 +120,7 @@ export default function Home() {
             title="Tools"
             technologies={[
               { name: "Vite", link: "https://vitejs.dev" },
-              { name: "Cargo", link: "https://rustup.rs" },
+              { name: "Cargo", link: "https://rustup.rs" }
               ]}
           />
         </div>
