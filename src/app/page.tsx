@@ -68,7 +68,7 @@ export default function Home() {
 
           <TechCard
             title="Frameworks"
-            technologies={[
+            technologies={
               [
                 { name: "React", link: "https://reactjs.org" },
                 { name: "Next.js", link: "https://nextjs.org" },
@@ -105,7 +105,7 @@ export default function Home() {
               { name: "MariaDB", link: "https://mariadb.org" },
               { name: "SQLite", link: "https://sqlite.org" },
               { name: "Firebase", link: "https://firebase.google.com" },
-              { name: "pocketbase", link: "https://pocketbase.io" }
+              { name: "pocketbase", link: "https://pocketbase.io" },
             ]}
           />
 
