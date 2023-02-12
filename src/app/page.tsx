@@ -135,6 +135,9 @@ export default function Home() {
         >
           lia@vshade.strangled.net
         </a>
+        <br>
+        huge thanks to devminer for this template!
+        </br>
       </div>
     </div>
   );
