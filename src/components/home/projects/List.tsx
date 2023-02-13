@@ -64,7 +64,7 @@ export const ProjectList = () => {
             and{" "}
             <a href="https://actix.rs/" className="link">
               Actix
-            </a>
+            </a>{" "}
             with privacy and security in mind.
           </p>
         </ProjectCard>
