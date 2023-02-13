@@ -18,19 +18,18 @@ export default function RootLayout({
         <div className="pb-12">
           <div className="fixed inset-0 z-50 flex h-12 w-screen items-center border-b border-border px-3 backdrop-blur-lg sm:px-8">
             <div className="flex flex-1">
-              <span className="h-fit select-none">DevMiner</span>
+              <span className="h-fit select-none">Electro</span>
             </div>
 
             <div className="flex space-x-4">
               <TerminalWrapper />
 
               <a
-                href="https://github.com/TheDevMinerTV"
+                href="https://github.com/electroflameofficial"
                 className="flex items-center gap-x-2 rounded-lg px-2 py-1 text-white transition-all hover:bg-white hover:bg-opacity-20"
                 aria-label="My GitHub Profile"
               >
                 <SiGithub className="inline-block" size={20} />
-                GitHub
               </a>
             </div>
           </div>
