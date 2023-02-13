@@ -12,104 +12,80 @@ export const ProjectList = () => {
     <div>
       <div className="content px-4 sm:px-8">
         <ProjectCard
-          title="DangerousTool"
+          title="MyDemonList"
           links={[
             {
               icon: <HiLink size={20} />,
-              link: "https://dangeroustool.devminer.xyz",
-              alt: "DangerousTool",
+              link: "https://mydemonlist.com",
+              alt: "MyDemonList",
             },
           ]}
           tech={[
             "TypeScript",
-            "Next.js",
             "TailwindCSS",
             "Node.js",
-            "uWebSockets.js",
           ]}
         >
           <p>
-            DangerousTool is a utility for{" "}
-            <a href="https://www.elitedangerous.com/" className="link">
-              Elite: Dangerous
+            MyDemonList is a level rating website for{" "}
+            <a href="https://store.steampowered.com/app/322170/Geometry_Dash?" className="link">
+              Geometry Dash
             </a>{" "}
-            players that shows the current position and status in{" "}
-            <a href="https://discord.com" className="link">
-              Discord
-            </a>
+            run by players and members of the community{" "}
             .
-          </p>
-          <p>
-            I made this when playing{" "}
-            <a href="https://www.elitedangerous.com/" className="link">
-              Elite: Dangerous
-            </a>{" "}
-            and my friend mentioned that they have a semi-stable event stream on
-            the filesystem.
           </p>
         </ProjectCard>
 
         <ProjectCard
-          title="t3odo"
+          title="GD.RS"
           links={[
             {
               icon: <HiLink size={20} />,
-              link: "https://todo.devminer.xyz",
-              alt: "t3odo",
+              link: "https://github.com/electroflameofficial/gd.rs",
+              alt: "GDRS",
             },
           ]}
           tech={[
-            "TypeScript",
-            "Next.js",
-            "tRPC",
-            "TailwindCSS",
-            "NextAuth",
-            "Prisma",
+            "Rust",
+            "Actix",
+            "Diesel",
+            "PostgreSQL",
           ]}
         >
           <p>
-            Simple todo app based on the{" "}
-            <a href="https://create.t3.gg/" className="link">
-              t3 stack
+            Advanced Geometry Dash Private Server stack built on{" "}
+            <a href="https://rustup.rs" className="link">
+              Rust
             </a>{" "}
-            popularized by the YouTuber and{" "}
-            <a href="https://ping.gg" className="link">
-              ping.gg
+            and runs on{" "}
+            <a href="https://www.postgresql.org/" className="link">
+              PostgreSQL
             </a>{" "}
-            CEO{" "}
-            <a href="https://t3.gg/" className="link">
-              Theo Browne
+            and{" "}
+            <a href="https://actix.rs/" className="link">
+              Actix
             </a>
-            .
+            with privacy and security in mind.
           </p>
         </ProjectCard>
 
         <ProjectCard
-          title="SlimeVR Firmware Protocol Debugger"
+          title="GDOpenList"
           links={[
             {
               icon: <SiGithub size={20} />,
-              link: "https://github.com/SlimeVR/SlimeVR-Node/tree/master/apps",
-              alt: "SlimeVR Firmware Protocol Debugger on GitHub",
+              link: "https://github.com/electroflameofficial/GDOpenList",
+              alt: "GDOpenList on GitHub",
             },
           ]}
-          tech={["TypeScript", "React", "Electron", "Node.js", "TailwindCSS"]}
+          tech={["TypeScript", "Svelte"]}
         >
           <p>
-            Reimplementation of the{" "}
-            <a href="https://slimevr.dev" className="link">
-              SlimeVR
-            </a>{" "}
-            tracker protocol and server in TypeScript to debug trackers without
-            having to start{" "}
-            <a
-              href="https://store.steampowered.com/app/250820/SteamVR/"
-              className="link"
-            >
-              SteamVR
-            </a>
-            . Also includes an optional GUI which also visualizes the trackers
-            rotation.
+            A simple and pretty list stack for{" "}
+            <a href="https://store.steampowered.com/app/322170/Geometry_Dash" className="link">
+              Geometry Dash
+            </a>{""}
+            .
           </p>
         </ProjectCard>
 
